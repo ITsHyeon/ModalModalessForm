@@ -15,5 +15,15 @@ namespace ModalModalessForm
         {
             InitializeComponent();
         }
+
+        private void FormModaless_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public string Title
+        {
+            set { this.Text = value; }
+        }
     }
 }
